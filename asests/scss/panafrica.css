@@ -199,6 +199,10 @@ body, html {
 .hero .innerHero .heroImages img {
   height: 100%;
 }
+.hero .innerHero .heroImagesTwo img {
+  height: auto;
+  margin: 50.5% 0 0 0;
+}
 .hero .innerHero .secHeroImages {
   opacity: 0.3;
   margin: 1% 0 0 0;
@@ -411,6 +415,10 @@ footer .outerFooter .innerfooter .footerItem .locataions p i {
   .hero .outerHero .innerHero .heroImages img {
     width: 100%;
   }
+  .hero .outerHero .innerHero .heroImagesTwo img {
+    height: auto;
+    margin: 0;
+  }
   .hero .outerHero .innerHero .secHeroImages {
     width: 100%;
     display: none;
@@ -509,7 +517,12 @@ footer .outerFooter .innerfooter .footerItem .locataions p i {
     width: 100%;
   }
   .hero .outerHero .innerHero .heroImages img {
+    margin: 4% 0 0 0;
     width: 100%;
+  }
+  .hero .outerHero .innerHero .heroImagesTwo img {
+    height: auto;
+    margin: 4% 0 0 0;
   }
   .hero .outerHero .innerHero .secHeroImages {
     display: none;
@@ -525,8 +538,9 @@ footer .outerFooter .innerfooter .footerItem .locataions p i {
     margin: 5% 0;
   }
   .services .outerServices .innerServices .servicesImg img {
-    margin: 0;
-    width: 50%;
+    margin: 0 50%;
+    width: 100%;
+    text-align: center;
   }
   .secondServices .outerservices h2 {
     text-align: center;
@@ -553,6 +567,14 @@ footer .outerFooter .innerfooter .footerItem .locataions p i {
     width: 100%;
   }
   .contact .outerContact .innerContact h2 {
+    text-align: center;
+  }
+  footer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer .outerFooter .innerfooter .footerItem {
     text-align: center;
   }
 }/*# sourceMappingURL=panafrica.css.map */

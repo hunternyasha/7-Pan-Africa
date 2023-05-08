@@ -219,6 +219,12 @@ $semi-bold : "semi-bold";
                
             }
         }
+        .heroImagesTwo{
+            img{
+                height: auto;
+                margin: 50.5% 0 0 0;
+            }
+        }
         .secHeroImages{
            opacity: 0.3;
            margin: 1% 0 0 0;
@@ -489,6 +495,12 @@ footer{
                         width: 100%;
                     }
                 }
+                .heroImagesTwo{
+                    img{
+                        height: auto;
+                        margin:0;
+                    }
+                }
                 .secHeroImages{
                     width: 100%;
                     display: none;
@@ -620,7 +632,15 @@ footer{
                 }
                 .heroImages{
                     img{
+                        margin: 4% 0 0 0;
                         width: 100%;
+                    }
+                }
+                .heroImagesTwo{
+                    img{
+                        
+                        height: auto;
+                        margin:4% 0 0 0;
                     }
                 }
                 .secHeroImages{
@@ -642,8 +662,9 @@ footer{
                 }
                 .servicesImg{
                     img{
-                        margin: 0;
-                        width: 50%;
+                        margin: 0 50%;
+                        width: 100%;
+                        text-align: center;
                     }
                 }
             }
@@ -685,6 +706,18 @@ footer{
                     width: 100%;
                 }
                 h2{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    footer{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        .outerFooter{
+            .innerfooter{
+                .footerItem{
                     text-align: center;
                 }
             }

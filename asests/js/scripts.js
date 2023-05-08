@@ -19,7 +19,7 @@ $('.owl-carousel').owlCarousel({
             nav:false,
             loop:false
         }
-  .  }
+  }
 })
 
 $('#hamburger').click(function() {
